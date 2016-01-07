@@ -1,0 +1,162 @@
+.caja{
+
+ margin: 0 3em;
+
+}
+
+
+.tam-25{
+    width: 10%; 
+    background-color: red;
+}
+
+.tabla{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: .8em;    
+    border-collapse: collapse;
+    width: 75%; 
+   margin: auto;
+}
+
+
+.tabla th{
+    background: #1f325d;
+    color: WHITE;
+    font-weight: bold;
+    padding: .em 0;
+}
+
+.tabla td{
+     padding: 6px;     
+     background: #e8edff;    
+     border-bottom: 1px solid #fff;
+     color: #669;    
+     border-top: 1px solid transparent; 
+     
+}
+
+.tabla tr:hover td{
+    background: #d0dafd;  
+}
+
+
+
+
+.btn{
+    border-radius: 10px;
+    border: none;
+    background-color:  #4084e0; 
+    color: white;
+    padding: 0.3em 1em;
+
+}
+
+.btnE{
+    border-radius: 10px;
+    border: none;
+    background-color:  #1f325d; 
+    color: white;
+    padding: 0.3em 1em;
+
+
+}
+
+#nuevo:hover {
+    background-color: rgb(126, 178, 248) ;
+    border-radius: 25px;
+}
+
+
+
+.tabla1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 10px;       
+    width: 100%;    
+    border-collapse: collapse; 
+}
+
+.tabla1 th{
+    background: #1f325d;
+    color: WHITE;
+    font-weight: bold;
+}
+
+.tabla1 td{     
+     background: #e8edff;    
+     border-bottom: 1px solid #fff;
+     color: #669;    
+     border-top: 1px solid transparent; 
+}
+
+.tabla1 tr:hover td{
+    background: #d0dafd;  
+}
+
+#btn1{
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+    border: none;
+    background-color:  #4084e0; 
+    color: white;
+    border-radius: 25px;
+}
+
+#btnE1{
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+    border: none;
+    background-color:  #1f325d; 
+    color: white;
+    border-radius: 25px;
+
+}
+
+
+.infDias label:nth-child(2n+1) {
+    float: left;
+    clear: left;
+    
+}
+
+.infDias label:nth-child(2n) {
+    float: right;
+    clear: right; 
+}
+
+.infDias {
+clear: both;
+}
+
+.cboth {
+    clear: both;
+}
+
+
+[type="search"]{
+    border-radius: 1.2em;
+    height: 2em;
+    margin-left: 28em;
+    
+}
+
+#buscarC{
+    border-radius: 1.2em;
+    height: 2em;
+}
+
+.Encabezado {
+    font-family: Copperplate Gothic Bold, cursive;
+    font-size: 1.3em;
+    
+}
+
+.center{
+text-align: center;
+}
+
+
+
+
+

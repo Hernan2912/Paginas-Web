@@ -1,0 +1,292 @@
+*{
+font-family: "Lucida Sans Unicode", "Lucida Grande", Arial;
+}
+
+body {
+    height: 100%;
+	background: url(../img/fnd1.jpg) ;
+    background-size: cover;
+}
+
+.frm{
+    padding: 2em 2em;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #bcbbbb;
+    margin: auto;
+    border-radius: 2px;
+}
+
+#permiso-conducir, #Fecha-Nac{
+    border: none;
+}
+
+
+.frm label{
+    color: #aaaaaa;
+    margin: 0.3em 0;
+    font-size: .8em;
+}
+
+.center{
+ text-align: center;
+}
+
+.frm [type="search"],
+.frm [type="text"],
+.frm  [type="password"]{
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;
+    height: 2.5em;
+    margin-bottom: 0.6em;
+}
+
+.frm  [type="submit"],
+.frm  [type="reset"],
+.frm  [type="button"], .btn{
+    border-radius: 10px;
+    border: none;
+    background-color:  #4084e0; 
+    color: white;
+    margin-top: 1em;
+    padding: 0.3em 1em;
+    margin-bottom: 0.2em;
+}
+
+.btn:hover,
+.frm  [type="submit"]:hover,
+.frm  [type="reset"]:hover,
+.frm  [type="button"]:hover {
+  background-color: #606060;   
+}
+
+.ocul{
+    display: none;
+} 
+
+.tam-50{
+    width: 48.8%;
+  
+    
+   
+}
+
+.tam-100{
+    width: 99%;
+}
+
+select {
+    margin: .3em 0;
+}
+
+.block{
+  display: block;
+}
+
+.black{
+  color: black;
+}
+
+#permiso_conducir:checked ~ #permiso_c{
+    display: inline-block;    
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+    margin: 0.3em 0;
+}
+
+select, datalist{
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;
+    height: 2em;
+    margin-bottom: 0.6em;
+}
+
+list{
+    display: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;
+    height: 2em;
+    margin-bottom: 0.6em;
+}
+
+
+[id*="error"] {
+    color: rgba(255, 0, 0, 0.51);
+    font-size: 0.7em;
+    position: absolute;
+    display: inline;
+    margin-top: 20px;
+}
+
+fieldset {
+    margin: 0.3em 0;
+    border: 1px solid #aaaaaa; 
+    color: #898989;
+    font-size: 0.85em;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+        
+}
+
+#frm-clie {
+    width: 420px;
+}
+
+#frm_auto {
+    width: 550px;
+}
+
+.tam-33 {
+    width: 32.5%;
+    float: left;
+}
+
+div.tam-50{
+   display: inline-block;
+}
+
+.tam-40 {
+    width: 40%;
+}
+
+#frm_tarifa {
+    width: 500px;
+}
+
+#frm_servicio {
+    width: 600px;
+    
+}
+
+.tam-70 {
+    width: 60%;
+}
+
+#frm-res {
+    width: 600px;
+}
+
+#devolucion {
+    margin-top: 200px;
+}
+
+
+
+#img-v {
+    border: 1px solid silver;
+    width: 280px;    
+    height: 200px;
+    margin-left: 50px;
+}
+
+#frm_promo {
+    width: 600px;
+}
+
+
+table {
+    width: 70%;
+    padding: 2px;
+    border-spacing: 8px;
+    margin: auto;
+}
+
+.der {
+   float: right;
+
+}
+
+.izq{
+    float: left;
+}
+
+.in-lineb{
+    display: inline-block;
+}
+
+
+#img-a {
+    border: 1px solid silver;
+    margin: auto;
+}
+
+#img-s {
+    border: 1px solid silver;
+    width: 280px;    
+    height: 200px;
+}
+
+#img-p {
+    border: 1px solid silver;
+    width: 280px;    
+    height: 230px;
+}
+
+.font-size {
+    font-size: 11em;
+}
+
+#contra:checked ~ #Rcorreo{
+    display: inline-block;   
+}
+
+#errorCI {
+    color: rgba(255, 0, 0, 0.51);
+    font-size: 0.7em;
+    position: absolute;
+    margin-top: 31px;
+}
+
+.mostCli{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial;
+    font-size: 0.9em;
+    border: solid 1px #cecece ;
+    border-collapse: collapse;
+}
+
+.mostCli tr:nth-child(2n+1) {
+
+    background-color: rgba(65, 105, 225, 0.35);
+}
+
+#fecha {
+    font-size: 0.7em;
+    padding: .2em 0 0 0;
+    text-decoration-style: solid;
+    margin: 0 0 0.3em 0;
+    color:  red;
+}
+
+#fechasE {
+    margin-top: 200px;
+}
+
+
+
+#ValidarFechas {
+    font-size: 1em;
+    padding: .2em 0 0 0;
+    text-decoration-style: solid;
+    margin: 0 0 0.3em 0;
+    color:  red;
+    text-align: center;
+}
+
+
+
+
+
+
+.izquierda {
+    position: relative;
+}
+
+
+
+
